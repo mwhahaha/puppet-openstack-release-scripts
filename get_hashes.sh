@@ -1,12 +1,12 @@
 #!/bin/bash
 source functions.sh
 
-BRANCH=${1:-'master'}
-
+set +x
 check_file_list
 
 for M in `cat puppet-openstack-release-list.txt `; do
   pushd "${M}"
-    git review $BRANCH
+  HASH=$(git rev-parse HEAD)
+  echo "${M}: ${HASH}"
   popd
 done

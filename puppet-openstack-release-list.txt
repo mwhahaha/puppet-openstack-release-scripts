@@ -1,9 +1,9 @@
 puppet-aodh
 puppet-barbican
 puppet-ceilometer
-puppet-ceph
 puppet-cinder
 puppet-designate
+puppet-ec2api
 puppet-glance
 puppet-gnocchi
 puppet-heat
@@ -16,6 +16,7 @@ puppet-mistral
 puppet-murano
 puppet-neutron
 puppet-nova
+puppet-octavia
 puppet-openstack_extras
 puppet-openstacklib
 puppet-oslo
@@ -25,4 +26,5 @@ puppet-swift
 puppet-tempest
 puppet-trove
 puppet-vswitch
+puppet-watcher
 puppet-zaqar

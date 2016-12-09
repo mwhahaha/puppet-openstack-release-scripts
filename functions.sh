@@ -62,7 +62,7 @@ git_create_branch() {
       echo "please provide topic to git_create_branch"
       exit 1
     fi
-    git fetch --all
-    git checkout master
+    #git fetch --all
+    #git checkout master
     git checkout -b "${TOPIC}"
 }
